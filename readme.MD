@@ -7,7 +7,9 @@ Specifically, the repository is organized as collection of the data set, main ro
 Please see below for brief explanation of each software component. For a high-level overview of each script, you may see the docstrings appearing on the top of the  scripts and for low-level descriptions please look into the functions.
 
 **Data and annotations**
-Since the data is quite big, we divided it into 15 segments (part1~part15 at apita_dataset/smooth_nonrepeating). 
+
+Since the entire data is quite large in size, we divided it into 15 segments (part1~part15 at apita_dataset/smooth_nonrepeating). For each segment, there is one file relating each of the below.
+
 ###### Labels
 
 ###### Overlaps
@@ -44,7 +46,6 @@ Physical review E, Vol. 91, No. 6, 062810, 2015
 [5] Zeynep Yücel, Francesco Zanlungo, Tetsuhi Ikeda, Takahiro Miyashita, Norihiro Hagita\
 Modeling Indicators of Coherent Motion\
 International Conference on Intelligent Robots and Systems, pp. 2134-2140, Oct. 2012, IROS 2012 (Algarve, Portugal).
-
 
 [6] Zeynep Yücel, Takahiro Miyashita, Norihiro Hagita\
 Modeling and Identification of Group Motion via Compound Evaluation of Positional and Directional Cues\

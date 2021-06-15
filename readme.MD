@@ -36,7 +36,7 @@ The mobile entities are labelled accoring to their type. Each row of the labels 
   Not annotated: 0
 
 ###### Overlaps
-Some pedestrians have the some of their trajectory in part-(i) and the remaining in part-(i+1). The files under overlaps\ contain the IDs of such pedestrians.
+Some pedestrians have the some of their trajectory in part-(i) and the remaining in part-(i+1). The files under overlaps\\ contain the IDs of such pedestrians.
 
 ###### Pairs
 

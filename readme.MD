@@ -8,9 +8,17 @@ Please see below for brief explanation of each software component. For a high-le
 
 **Data and annotations**
 
-Since the entire data is quite large in size, we divided it into 15 segments (part1~part15 at apita_dataset/smooth_nonrepeating). For each segment, there is one file relating each of the below.
+Since the entire data is quite large in size, we divided it into 15 segments (see part1~part15 under apita_dataset/smooth_nonrepeating). For every segment, there is one file concernign each of the below.
 
 ###### Labels
+
+The mobile entities are labelled accoring to their type. Namely,  
+  Human: 1\
+  Wheelchair: 2\
+  Shopping cart: 3\
+  Stroller: 4\
+  Cart: 5\
+  Not annotated: 0\
 
 ###### Overlaps
 Some pedestrians have the some of their trajecoty in part(i-1) and the remaining in part(i). The files under overlaps\ contain the IDs of such pedestrians. 

@@ -77,11 +77,11 @@ ATR-IRC. Dataset: Pedestrian tracking with group annotations\
 Available from: http://www.irc.atr.jp/sets/groups/. 
 
 [3] Francesco Zanlungo, Tetsushi Ikeda, and Takayuki Kanda \
-"Potential for the dynamics of pedestrians in a socially interacting group," \
+Potential for the dynamics of pedestrians in a socially interacting group, \
 Physical Review E, Vol. 89, No. 1, 012811, 2014
 
 [4] Francesco Zanlungo, Drazen Brscic, and Takayuki Kanda \
-"Pedestrian group spatial size scaling under growing density conditions," \
+Pedestrian group spatial size scaling under growing density conditions, \
 Physical review E, Vol. 91, No. 6, 062810, 2015 
 
 [5] Dylan F. Glas, Takahiro Miyashita, Hiroshi Ishiguro, and Norihiro Hagita\

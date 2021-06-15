@@ -7,6 +7,16 @@ Specifically, the repository is organized as collection of the data set, main ro
 Please see below for brief explanation of each software component. For a high-level overview of each script, you may see the docstrings appearing on the top of the  scripts and for low-level descriptions please look into the functions.
 
 **Data and annotations**
+Since the data is quite big, we divided it into 15 segments (part1~part15 at apita_dataset/smooth_nonrepeating). 
+###### Labels
+
+###### Overlaps
+Some pedestrians have the some of their trajecoty in part(i-1) and the remaining in part(i). The files under overlaps\ contain the IDs of such pedestrians. 
+
+###### Pairs
+
+
+
 
 **Main routines**
 

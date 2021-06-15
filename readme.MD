@@ -2,12 +2,9 @@
 
 This repository contains the resources necessary for reproducing the results reported in our manuscript [1]. The implementation is done in Matlab7 with no specific dependencies.
 
-Specifically, the repository is organized as collection data setm, main routine(s), and auxiliaries. The raw data set analyzed during the study is publicly available at [2]
+Specifically, the repository is organized as collection data setm, main routine(s), and auxiliaries. The raw data set analyzed during the study is publicly available at [2]. Please see [3] and [4] for a detailed anaylsis of the data set considering the different density conditions. In this repository, we provide a post-processed (i.e. normalized) version of the raw data, such that the data points collected over a certain duration (100msec) are averaged. That is, there is a single data point for each 100masec, which is the average of the coordinates registered within the corresponding time window.
 
-, since it contains privacy information and relates to the performance of the software company. Nevertheless, it is available from the corresponding author on reasonable request. In addition, we provide information on the contents of the organization of the data set, since it helps in understanding our software.
-
-Please see below for brief explanation of each software component. For a high-level overview of each script, please see the docstrings appearing on the top of each file and for low-level descriptions please look into the functions.
-
+Please see below for brief explanation of each software component. For a high-level overview of each script, you may see the docstrings appearing on the top of the  scripts and for low-level descriptions please look into the functions.
 
 **Data and annotations**
 
@@ -34,12 +31,11 @@ Physical Review E, Vol. 89, No. 1, 012811, 2014
 "Pedestrian group spatial size scaling under growing density conditions," \
 Physical review E, Vol. 91, No. 6, 062810, 2015 
 
-
-[3] Zeynep Yücel, Francesco Zanlungo, Tetsuhi Ikeda, Takahiro Miyashita, Norihiro Hagita\
+[5] Zeynep Yücel, Francesco Zanlungo, Tetsuhi Ikeda, Takahiro Miyashita, Norihiro Hagita\
 Modeling Indicators of Coherent Motion\
 International Conference on Intelligent Robots and Systems, pp. 2134-2140, Oct. 2012, IROS 2012 (Algarve, Portugal).
 
 
-[4] Zeynep Yücel, Takahiro Miyashita, Norihiro Hagita\
+[6] Zeynep Yücel, Takahiro Miyashita, Norihiro Hagita\
 Modeling and Identification of Group Motion via Compound Evaluation of Positional and Directional Cues\
 International Conference on Pattern Recognition, pp. 1172-1176, Nov. 2012, ICPR 2012 (Tsukuba, Japan).

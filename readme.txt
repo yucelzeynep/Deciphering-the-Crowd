@@ -1,3 +1,4 @@
-main.m includes the entire codes necessary for modeling and testing.
+# Decihering the crowd: Modeling and Identification of Pedestrian Group Motion
 
-For quick tests, save a copy of the loglikelihood and KL divergence files in fits_backup. Make sure the copies are up-to-date.
+This repository contains the resources necessary for reproducing the results reported in our manuscript [1]. The implementation is done in Matlab7 with no specific dependencies.
+**Data and annotations**

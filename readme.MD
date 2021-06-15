@@ -7,7 +7,9 @@ This repository contains the resources necessary for reproducing the results rep
 **Main routines**
 
 ###### Benchmark method
+
 **References**
+
 [1] Zeynep Yücel, Francesco Zanlungo, Tetsuhi Ikeda, Takahiro Miyashita, Norihiro Hagita\
 Deciphering the crowd: Modeling and identification of pedestrian group motion\
 Sensors, Vol. 13, No. 1, pp. 875-897, Jan. 2013.\

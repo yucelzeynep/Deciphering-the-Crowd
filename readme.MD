@@ -14,11 +14,11 @@ Since the entire data is quite large in size, we divided it into 15 segments (se
 
 The mobile entities are labelled accoring to their type. Namely,  
 >Human: 1\
->Wheelchair: 2\
+  Wheelchair: 2\
   Shopping cart: 3\
   Stroller: 4\
   Cart: 5\
-  Not annotated: 0\
+  Not annotated: 0
 
 ###### Overlaps
 Some pedestrians have the some of their trajecoty in part(i-1) and the remaining in part(i). The files under overlaps\ contain the IDs of such pedestrians. 

@@ -27,7 +27,7 @@ The contents of these files are organized as below:
 
 ###### Labels
 
-The mobile entities are labelled accoring to their type. Each row of the labels matrix involves two entries, where the first one is the ID of the entity and the second one is the type of the entitiy. Th type is coded as below
+The mobile entities are labelled accoring to their type. Each row of the labels matrix involves two entries, where the first one is the ID of the entity and the second one is the type of the entitiy. Entity types are coded as below
 >Human: 1\
   Wheelchair: 2\
   Shopping cart: 3\
@@ -36,12 +36,23 @@ The mobile entities are labelled accoring to their type. Each row of the labels 
   Not annotated: 0
 
 ###### Overlaps
-Some pedestrians have the some of their trajectory in part-(i) and the remaining in part-(i+1). The files under overlaps\\ contain the IDs of such pedestrians.
+Some pedestrians have the some of their trajectory in part-(i) and the remaining in part-(i+1). The files under the folder overlaps contain the IDs of such pedestrians.
 
 ###### Pairs
+The pedestrian groups are labelled accoring to their type. The possile types of pairs are human-human,  human-shopping-cart,   human-stroller, and  human-cart. Each row of the pairs matrix involves three entries as below
+  >col 1: type of the pair\
+  col 2: ID1\
+  col 3: ID2
+  
+Group types are coded as below:
+    >Human-human: 2\
+    Human-shopping-cart: 3\
+    Human-stroller: 4\
+    Human-cart: 5
+
 
 ###### Velocity
-Velocity is computed based on path-i files and by taking the 
+Velocity is computed based on path-i files and by taking the displacement between every other data point and dividing it the corresponding time interval.
 
 
 

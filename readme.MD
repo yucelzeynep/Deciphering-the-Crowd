@@ -27,7 +27,7 @@ The contents of these files are organized as below:
 
 ###### Labels
 
-The mobile entities are labelled accoring to their type. Each row of the labels matrix involves two entries, where the first one is the ID of the entity and the second one is the type of the entitiy. Entity types are coded as below
+The mobile entities are labeled according to their type. Each row of the labels matrix involves two entries, where the first one is the ID of the entity and the second one is the type of the entity. Entity types are coded as below
 >Human: 1\
   Wheelchair: 2\
   Shopping cart: 3\
@@ -39,7 +39,7 @@ The mobile entities are labelled accoring to their type. Each row of the labels 
 Some pedestrians have the some of their trajectory in part-(i) and the remaining in part-(i+1). The files under the folder overlaps contain the IDs of such pedestrians.
 
 ###### Pairs
-The pedestrian groups are labelled accoring to their type. The possile types of pairs are human-human,  human-shopping-cart,   human-stroller, and  human-cart. Each row of the pairs matrix involves three entries as below
+The pedestrian groups are labeled according to their type. The possible types of pairs are human-human,  human-shopping-cart,   human-stroller, and  human-cart. Each row of the pairs matrix involves three entries as below
   >col 1: type of the pair\
   col 2: ID1\
   col 3: ID2
@@ -55,9 +55,13 @@ Group types are coded as below:
 ###### Velocity
 Velocity is computed based on path-i files and by taking the displacement between every other data point and dividing it the corresponding time interval.
 
-
-
 **Main routines**
+
+The main routine builds one model for each of interpersonal distance, angle between velocity vectors and dot product of velocities. These models are created by d_modeling/d_modeling.m, theta_modeling/theta_modeling.m and vdot_modeling/vdot_modeling.m, respectively. 
+
+For building each model, the data is shuffled and split it into training and testing subsets. For the details of the models (Rice, Von Mises distributions) and the hyper-parameters to be calibrated, please see the article. In addition, in corresponding sub-folders, you may find the auxiliary files, which are necessary for optimization. 
+
+The function main.m does a single set of training-testing, whereas main_loops.m repeats this procedure 50 times and reports descriptive statistics.
 
 ###### Benchmark method
 

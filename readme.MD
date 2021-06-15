@@ -46,7 +46,7 @@ The pedestrian groups are labelled accoring to their type. The possile types of 
   
 Group types are coded as below:
 
-    >Human-human: 2\
+>Human-human: 2\
     Human-shopping-cart: 3\
     Human-stroller: 4\
     Human-cart: 5

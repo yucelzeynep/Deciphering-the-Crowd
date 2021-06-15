@@ -13,8 +13,8 @@ Since the entire data is quite large in size, we divided it into 15 segments (se
 ###### Labels
 
 The mobile entities are labelled accoring to their type. Namely,  
-  Human: 1\
-  Wheelchair: 2\
+>Human: 1\
+>Wheelchair: 2\
   Shopping cart: 3\
   Stroller: 4\
   Cart: 5\

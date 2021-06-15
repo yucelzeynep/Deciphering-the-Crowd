@@ -1,8 +1,8 @@
-# Decihering the crowd: Modeling and Identification of Pedestrian Group Motion
+# Deciphering the crowd: Modeling and Identification of Pedestrian Group Motion
 
 This repository contains the resources necessary for reproducing the results reported in our manuscript [1]. The implementation is done in Matlab7 with no specific dependencies.
 
-Specifically, the repository is organized as collection data setm, main routine(s), and auxiliaries. The raw data set analyzed during the study is publicly available at [2]. Please see [3] and [4] for a detailed anaylsis of the data set considering the different density conditions. In this repository, we provide a post-processed (i.e. normalized) version of the raw data, such that the data points collected over a certain duration (100msec) are averaged. That is, there is a single data point for each 100masec, which is the average of the coordinates registered within the corresponding time window.
+Specifically, the repository is organized as collection data set, main routine(s), and auxiliaries. The raw data set analyzed during the study is publicly available at [2]. Please see [3] and [4] for a detailed analysis of the data set considering the different density conditions. In this repository, we provide a post-processed (i.e. normalized) version of the raw data, such that the data points collected over a certain duration (100 msec) are averaged. That is, there is a single data point for each 100 msec, which is the average of the coordinates registered within the corresponding time window.
 
 Please see below for brief explanation of each software component. For a high-level overview of each script, you may see the docstrings appearing on the top of the  scripts and for low-level descriptions please look into the functions.
 

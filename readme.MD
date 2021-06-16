@@ -39,7 +39,7 @@ The mobile entities are labeled according to their type. Each row of the labels 
 Some pedestrians have the some of their trajectory in part-(i) and the remaining in part-(i+1). The files under the folder overlaps contain the IDs of such pedestrians.
 
 ###### Pairs
-The pedestrian groups are labeled according to their type. The possible types of pairs are human-human,  human-shopping-cart,   human-stroller, and  human-cart. Each row of the pairs matrix involves three entries as below
+The pedestrian groups are labeled according to their type. The possible types of pairs are human-human,  human-shopping-cart, human-stroller, and  human-cart. Each row of the pairs matrix has two entries which involve the below
   >col 1: type of the pair\
   col 2: ID1\
   col 3: ID2
@@ -62,8 +62,6 @@ The main routine builds one model for each of interpersonal distance, angle betw
 For building each model, the data is shuffled and split it into training and testing subsets. For the details of the models (Rice, Von Mises distributions) and the hyper-parameters to be calibrated, please see the article. In addition, in corresponding sub-folders, you may find the auxiliary files, which are necessary for optimization. 
 
 The function main.m does a single set of training-testing, whereas main_loops.m repeats this procedure 50 times and reports descriptive statistics.
-
-###### Benchmark method
 
 **References**
 
